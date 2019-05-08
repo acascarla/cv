@@ -13,6 +13,10 @@ About Oriol Alfonso
 Personal
 ----------------
 
+Things about me:
+
+Python, Django, Testing, Tryton, Ansible, AWS, Terraform, and good practices around all this things :)
+
 .. automodule:: personal
    :members:
 
@@ -31,6 +35,15 @@ Achievements
 .. automodule:: achievements
    :members:
 
+
+
+
+Disclaimer
++++++++++++++++++++
+
+Forgive me everyone for insulting Sphinx and Python using them to tell my life 
+but with my backend background it has been imposible to ignore the possibility 
+of redacting my own CV with this really nice tool •ᴗ•
 
 
 Indices and tables

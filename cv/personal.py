@@ -4,8 +4,9 @@
 
 class Life():
     """
-    Always interested in computers and videogames. A bit addicted to squash
-    and now obsesed with clean code, trying do it a bit better.
+    Always interested in computers and videogames (Counter Strike <3). 
+    A bit addicted to squash and now obsesed with clean code, trying do it a
+    bit better.
     """
 
     @staticmethod
