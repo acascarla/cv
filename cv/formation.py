@@ -4,25 +4,26 @@
 
 class Monlau():
     """
-    Defines all formation coursed in Centre d'Estudis Monlau
+    I've been in this school for 5 years doing 3 diferent courses, all of them
+    IT related
     """
 
-    @staticmethod
-    def middle_grade_esi():
+    @property
+    def middle_level_esi():
         """
         Explotació de Sistemes Informàtics
         """
         pass
 
-    @staticmethod
-    def superior_grade_asix():
+    @property
+    def upper_level_asix():
         """
         Administració Sistemes Informàtics i Xarxes
         """
         pass
 
-    @staticmethod
-    def superior_grade_dam():
+    @property
+    def upper_level_dam():
         """
         Desenvolupament d'Aplicacions Multiplataforma
         """
@@ -31,11 +32,15 @@ class Monlau():
 
 class LaSalle():
     """
-    Defines formation coursed in University UOLS: University Open La Salle
+    After my 5th year in Monlau, La Salle just started a Bachelor's degree of
+    3 years oriented to multimedia and videogames that would convalidate most
+    of already coursed subjects and all the degree was going to last just 2
+    years instead of 3 of the original size or 4 of a normal Computer Science
+    Degree so I had any doubt, that degree was designed for me.
     """
 
-    @staticmethod
-    def bachelor_multimedia():
+    @property
+    def multimedia_bachelor():
         """
         Bachelor Multimèdia
         """

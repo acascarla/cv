@@ -5,6 +5,8 @@
 
 About Oriol Alfonso
 ====================================
+What the fuck am I reading?
+ This is a module with dummy objects that contains some information about me and what stuff I am related to like Python, Django, Testing, Tryton, Ansible, AWS, Terraform, and good practices around all this things.
 
 .. toctree::
    :maxdepth: 2
@@ -12,29 +14,31 @@ About Oriol Alfonso
 
 Personal
 ----------------
-
-Things about me:
-
-Python, Django, Testing, Tryton, Ansible, AWS, Terraform, and good practices around all this things :)
-
 .. automodule:: personal
    :members:
+
+
+Formation
+----------------
+I've coursed some IT middle and upper level Specific Vocational Schooling and one Multimedia Bachelor Degree.
+
+.. autoclass:: formation.Monlau
+   :members:
+
+.. autoclass:: formation.LaSalle
+   :members:
+
 
 Profesional
 ----------------
 .. automodule:: profesional
    :members:
 
-Formation
-----------------
-.. automodule:: formation
-   :members:
 
 Achievements
 ----------------
 .. automodule:: achievements
    :members:
-
 
 
 
@@ -46,9 +50,8 @@ but with my backend background it has been imposible to ignore the possibility
 of redacting my own CV with this really nice tool •ᴗ•
 
 
-Indices and tables
-==================
 
+Index
+"""""""""
 * :ref:`genindex`
 * :ref:`modindex`
-* :ref:`search`

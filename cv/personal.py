@@ -9,7 +9,7 @@ class Life():
     bit better.
     """
 
-    @staticmethod
+    @property
     def name():
         """
         Oriol Alfonso Riba
@@ -20,13 +20,6 @@ class Life():
     def birth_date():
         """
         17/03/1991
-        """
-        pass
-
-    @property
-    def phone():
-        """
-        653207570
         """
         pass
 
