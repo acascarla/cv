@@ -31,22 +31,8 @@ class Life():
         pass
 
     @property
-    def twitter():
-        """
-        @oriolsq
-        """
-        pass
-
-    @property
     def languages():
         """
         English, Catalan, Spanish
-        """
-        pass
-
-    @property
-    def linkedin():
-        """
-        https://www.linkedin.com/in/oriol-alfonso-riba-a198439b/
         """
         pass

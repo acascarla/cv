@@ -14,7 +14,7 @@ class Monlau():
         """
         CF Grau Mig d'Informàtica::
 
-            {
+            overview = {
                 name: 'Explotació de Sistemes Informàtics',
                 center: "Centre d'Estudis Monlau",
                 duration: dateutils.relativedelta(years=2),
@@ -28,7 +28,7 @@ class Monlau():
         """
         CF Grau Superior de Sistemes::
 
-            {
+            overview = {
                 name: 'Administració Sistemes Informàtics i Xarxes',
                 center: "Centre d'Estudis Monlau",
                 duration: dateutils.relativedelta(years=2),
@@ -42,7 +42,7 @@ class Monlau():
         """
         CF Grau Superior de Programació::
 
-            {
+            overview = {
                 name: "Desenvolupament d'Aplicacions Multiplataforma",
                 center: "Centre d'Estudis Monlau",
                 duration: dateutils.relativedelta(years=1),
@@ -67,7 +67,7 @@ class LaSalle():
         """
         Batxelor Multimèdia::
 
-            {
+            overview = {
                 name: "Batxelor Multimèdia",
                 center: "Open University La Salle",
                 duration: dateutils.relativedelta(years=2),
