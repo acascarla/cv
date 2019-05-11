@@ -16,7 +16,9 @@ class Career():
     @property
     def redk():
         """
-        >>> overview = {
+        ::
+
+            overview = {
                 'company': 'REDK Software Enginering',
                 'role': 'PHP Developer',
                 'frameworks': ['SugarCRM'],

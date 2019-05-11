@@ -7,8 +7,8 @@ sys.path.insert(0, os.path.abspath('cv/'))
 project = u'oalfonso'
 copyright = u'2019, Oriol Alfonso'
 author = u'Oriol Alfonso'
-version = u'1.0'
-release = u'1.0'
+version = u'Python Developer'
+release = u'Python Developer'
 
 extensions = [
     'sphinx.ext.autodoc',
