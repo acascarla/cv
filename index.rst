@@ -5,7 +5,7 @@
 
 About Oriol Alfonso
 ====================================
-What the fuck am I reading?
+What am I reading?
  This is a module with dummy objects that contains some information about me and what stuff I am related to like Python, Django, Testing, Tryton, Ansible, AWS, Terraform, and good practices around all this things.
 
 .. toctree::
@@ -20,10 +20,10 @@ Personal
 
 Formation
 ----------------
-I've coursed some IT middle and upper level Specific Vocational Schooling and one Multimedia Bachelor Degree.
+I've studied IT Specific Vocational Training and a Multimedia Bachelor Degree.
 
 .. autoclass:: formation.Monlau
-   :members:
+   :members: middle_level_esi, advance_level_asix, advance_level_dam
 
 .. autoclass:: formation.LaSalle
    :members:

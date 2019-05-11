@@ -4,21 +4,16 @@
 
 class CrossBox():
     """
-    CrossBox is a webapp I did for a friend who started a crossfit gym. It
+    CrossBox is a webapp I did for a friend who started a CrossFit gym. It
     handles users, training sessions and reservations. I used Django for
     the API and admin panel and VueJs with a responsive design for the frontend
-    layout that users use to reservate their training sessions.
-    To see the app you can use this link:
-
-    (spam) https://reservations.crossboxpalau.com/
-
-    For more information contact me and I put you in contact with the trainer.
+    layout that users use to reserve their training sessions.
     """
 
     @property
     def frontend():
         """
-        There is served with Django Templates and VueJs components. In next
+        It's served with Django Templates and VueJs components. In next
         phase of this project I will completly uncouple this two parts.
         """
         pass
@@ -31,30 +26,18 @@ class CrossBox():
         pass
 
     @property
-    def code():
-        """
-        I have it currently private in bitbucket, after some reviews I will
-        put it public on GitHub.
-        """
-        pass
-
-    @property
     def cac():
         """
-        Becouse of I don't want to be afraid if the server dies or if I change
-        to another cloud provider, all is defined with Ansible, I love
-        Configuration As Code, all this project has its configuration by
-        Ansible and I can trigger the playbook with my Jenkins. This Ansible
-        repository is private too on my Bitbucket account and after some
-        reviews I will put it public on Github.
+        I love Configuration As Code, all this project has been configured by
+        Ansible and also there is a Jenkins job to reconfigure or perform a
+        deploy.
         """
         pass
 
     @property
     def gcp():
         """
-        For DNS I used Google Domains and for hosting a VM of Google Cloud
-        Platform, where I played my ansible book to configure nginx, uwsgi,
-        local postgres, etc.
+        It's currently running on a VM of Google Cloud Platform and for DNS I'm
+        using Google Domains.
         """
         pass

@@ -4,44 +4,72 @@
 
 class Monlau():
     """
-    I've been in this school for 5 years doing 3 diferent courses, all of them
-    IT related
+    Monlau is where I started my Higher Education IT focused. I studied in this
+    school for 5 years doing 3 diferent courses, one Middle Level Vocational
+    Training and two Advanced Vocational Trainings.
     """
 
     @property
     def middle_level_esi():
         """
-        Explotació de Sistemes Informàtics
+        >>> {
+                name: 'Explotació de Sistemes Informàtics',
+                center: "Centre d'Estudis Monlau",
+                duration: dateutils.relativedelta(years=2),
+                contents: ['IT basics'],
+            }
         """
         pass
 
     @property
-    def upper_level_asix():
+    def advance_level_asix():
         """
-        Administració Sistemes Informàtics i Xarxes
+        >>> {
+                name: 'Administració Sistemes Informàtics i Xarxes',
+                center: "Centre d'Estudis Monlau",
+                duration: dateutils.relativedelta(years=2),
+                contents: ['SysAdmin knowledge', 'programming basics'],
+            }
         """
         pass
 
     @property
-    def upper_level_dam():
+    def advance_level_dam():
         """
-        Desenvolupament d'Aplicacions Multiplataforma
+        >>> {
+                name: "Desenvolupament d'Aplicacions Multiplataforma",
+                center: "Centre d'Estudis Monlau",
+                duration: dateutils.relativedelta(years=1),
+                contents: [
+                    'programming knowledge', 'OOP', 'relational databases'
+                ],
+            }
         """
         pass
 
 
 class LaSalle():
     """
-    After my 5th year in Monlau, La Salle just started a Bachelor's degree of
-    3 years oriented to multimedia and videogames that would convalidate most
-    of already coursed subjects and all the degree was going to last just 2
-    years instead of 3 of the original size or 4 of a normal Computer Science
-    Degree so I had any doubt, that degree was designed for me.
+    After my 5th year in Monlau, La Salle just started a Multimedia Bachelor's
+    degree of 3 years oriented to videogames. That would convalidate most
+    of already coursed subjects, due to that, all the degree lasted just 2
+    years instead of 3.
     """
 
     @property
     def multimedia_bachelor():
         """
-        Bachelor Multimèdia
+        >>> {
+                name: "Batxelor Multimèdia",
+                center: "Open University La Salle",
+                duration: dateutils.relativedelta(years=2),
+                contents: [
+                    'ux', 'ui', 'arduino', 'db', 'android', 'ios',
+                    'game design', 'photography', 'video edition',
+                    'programming an engine from zero', 'unity', '3d model',
+                    '3d rigging', '3d animation', 'web projects',
+                    'web videogames', 'phaser.js'
+                ],
+            }
         """
         pass
