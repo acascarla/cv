@@ -12,7 +12,9 @@ class Monlau():
     @property
     def middle_level_esi():
         """
-        >>> {
+        CF Grau Mig d'Informàtica::
+
+            {
                 name: 'Explotació de Sistemes Informàtics',
                 center: "Centre d'Estudis Monlau",
                 duration: dateutils.relativedelta(years=2),
@@ -24,7 +26,9 @@ class Monlau():
     @property
     def advance_level_asix():
         """
-        >>> {
+        CF Grau Superior de Sistemes::
+
+            {
                 name: 'Administració Sistemes Informàtics i Xarxes',
                 center: "Centre d'Estudis Monlau",
                 duration: dateutils.relativedelta(years=2),
@@ -36,7 +40,9 @@ class Monlau():
     @property
     def advance_level_dam():
         """
-        >>> {
+        CF Grau Superior de Programació::
+
+            {
                 name: "Desenvolupament d'Aplicacions Multiplataforma",
                 center: "Centre d'Estudis Monlau",
                 duration: dateutils.relativedelta(years=1),
@@ -59,7 +65,9 @@ class LaSalle():
     @property
     def multimedia_bachelor():
         """
-        >>> {
+        Batxelor Multimèdia::
+
+            {
                 name: "Batxelor Multimèdia",
                 center: "Open University La Salle",
                 duration: dateutils.relativedelta(years=2),

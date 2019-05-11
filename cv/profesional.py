@@ -31,7 +31,9 @@ class Career():
     @property
     def calidae():
         """
-        >>> overview = {
+        ::
+
+            overview = {
                 company: 'Sistemes i Xarxes Informàtiques Calidae'
                 role: 'Python Developer + DevOps and now Team Lead'
                 frameworks: ['Django', 'Tryton'],
