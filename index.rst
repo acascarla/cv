@@ -53,7 +53,7 @@ Disclaimer
 
 Forgive me everyone for insulting Sphinx and Python using them to tell my life 
 but with my backend background it has been imposible to ignore the possibility 
-of redacting my own CV with this really nice tool •ᴗ•
+of redacting my own CV with this really nice tool.
 
 
 

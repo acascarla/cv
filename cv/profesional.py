@@ -35,7 +35,7 @@ class Career():
 
             overview = {
                 company: 'Sistemes i Xarxes Informàtiques Calidae'
-                role: 'Python Developer + DevOps and now Team Lead'
+                role: 'Python Developer + DevOps advocate'
                 frameworks: ['Django', 'Tryton'],
                 devops_tools: ['AWS', 'Ansible', 'Terraform', 'Jenkins'],
                 culture: [
