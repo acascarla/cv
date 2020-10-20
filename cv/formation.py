@@ -28,7 +28,7 @@ class Monlau():
                 'name': 'Networks and Informatic Systems Administration',
                 'center': "Centre d'Estudis Monlau",
                 'duration': dateutils.relativedelta(years=2),
-                'contents': ['System Administration', 'programming basics'],
+                'contents': ['System Administration', 'Programming Basics'],
             }
         """
         pass
@@ -55,7 +55,7 @@ class LaSalle():
 
     @property
     def multimedia_bachelor():
-        """Batxelor Multimèdia
+        """Bàtxelor Multimèdia
         ::
 
             overview = {

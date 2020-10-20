@@ -10,8 +10,8 @@
 About Oriol Alfonso
 -------------------
  This is a module with dummy objects that contains some information about me
- and what stuff I am related to, like Python, ETL, Testing, Ansible,
- Terraform, Kafka, etc.
+ and what stuff I am related to, like for example Python, ETL, Testing,
+ Ansible, Terraform or Kafka.
 
 .. autoclass:: personal.Life
    :members: name, birth_date, mail, languages

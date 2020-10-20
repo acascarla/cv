@@ -7,7 +7,7 @@ class Career():
 
     I started in REDK, hired by my university teacher. Then I moved to
     Calidae for 5 years and now I'm currently working in BMAT as part of the
-    Data team managing what will be the most accurate and complete music
+    Data Team managing what will be the most accurate and complete music
     metadata database in the world.
     """
 
@@ -33,13 +33,10 @@ class Career():
             overview = {
                 'company': 'Sistemes i Xarxes Informàtiques Calidae'
                 'role': 'Software Engineer'
-                'frameworks': ['Django', 'Tryton'],
-                'devops_tools': ['AWS', 'Ansible', 'Terraform', 'Jenkins'],
-                'culture': [
-                    'agile', 'kanban', 'testing', 'self-organized teams',
-                    'show&tells', 'paellas', 'free beer',
+                'frameworks': [
+                    'Django', 'Angular', 'Laravel', 'Vue', 'Tryton'
                 ],
-                'old_frameworks': ['Angular', 'Laravel'],
+                'devops_tools': ['Ansible', 'Terraform', 'Jenkins', 'Docker'],
                 'duration': dateutils.relativedelta(years=5),
             }
         """
@@ -47,13 +44,20 @@ class Career():
 
     @property
     def bmat():
-        """
+        """ Manage the integration and reconciliation of music metadata.
+
+        As Data Engineer, my role is create and improve pipelines to integrate
+        in real time all new music metadata that arrives to us. Each piece of
+        the pipeline is treated as an independent service which communicates
+        with others by event sourcing using Confluent Kafka.
+        I also lead scaling issues using AWS deployments on demand and
+        improving code and database decisions.
         ::
 
             overview = {
                 'company': 'BMAT Music Innovators',
                 'role': 'Data Engineer',
-                'tasks': [],
+                'buzzwords': ['Kafka', 'microservices'],
                 'duration': dateutils.relativedelta(years=1),
             }
         """
