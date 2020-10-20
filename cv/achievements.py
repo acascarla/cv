@@ -3,41 +3,29 @@
 
 
 class CrossBox():
-    """
-    CrossBox is a webapp I did for a friend who started a CrossFit gym. It
-    handles users, training sessions and reservations. I used Django for
-    the API and admin panel and VueJs with a responsive design for the frontend
-    layout that users use to reserve their training sessions.
+    """CrossBox is a side project to manage a CrossFit gym.
+
+    It handles users, training sessions calendar, reservations and periodic
+    payments with Stripe.
+
+    It's in production since 2 years with expectations of growing.
     """
 
     @property
     def frontend():
-        """
-        It's served with Django Templates and VueJs components. In next
-        phase of this project I will completly uncouple this two parts.
-        """
+        """It's served with Django Templates and VueJs components."""
         pass
 
     @property
     def backend():
-        """
-        I used Django for the API and the admin panel.
-        """
+        """Django"""
         pass
 
     @property
-    def cac():
-        """
-        I love Configuration As Code, all this project has been configured by
-        Ansible and also there is a Jenkins job to reconfigure or perform a
-        deploy.
-        """
-        pass
+    def deployment():
+        """The deployment is configured by Ansible in EC2 (prev in GCP vm)
 
-    @property
-    def gcp():
-        """
-        It's currently running on a VM of Google Cloud Platform and for DNS I'm
-        using Google Domains.
+        An Nginx in front redirecting to a uwsgi unix socket to communicate
+        with the app.
         """
         pass

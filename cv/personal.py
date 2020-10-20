@@ -3,36 +3,24 @@
 
 
 class Life():
-    """
-    Always interested in computers and videogames (Counter Strike <3).
-    A bit addicted to squash and obsessed with clean code, trying do it a
-    bit better.
-    """
+    """Interested in computers, videogames (Counter Strike) and sport"""
 
     @property
     def name():
-        """
-        Oriol Alfonso Riba
-        """
+        """Oriol Alfonso Riba"""
         pass
 
     @property
     def birth_date():
-        """
-        17/03/1991
-        """
+        """17/03/1991"""
         pass
 
     @property
     def mail():
-        """
-        oriolalfonso91@gmail.com
-        """
+        """oriolalfonso91@gmail.com"""
         pass
 
     @property
     def languages():
-        """
-        English, Catalan, Spanish
-        """
+        """English, Catalan, Spanish"""
         pass

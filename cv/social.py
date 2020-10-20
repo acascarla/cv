@@ -3,9 +3,7 @@
 
 
 class Social():
-    """
-    Social media platforms where I can be found
-    """
+    """Social media platforms where I can be found"""
 
     @property
     def linkedin():
@@ -24,8 +22,8 @@ class Social():
         """
         .. raw:: html
 
-            <a href="https://github.com/acascarla" target='blank'>
-                https://github.com/acascarla
+            <a href="https://github.com/oalfonso-o" target='blank'>
+                https://github.com/oalfonso-o
             </a>
         """
         pass
@@ -35,8 +33,8 @@ class Social():
         """
         .. raw:: html
 
-            <a href="https://twitter.com/oriolsq" target='blank'>@oriolsq</a>
-        """
+            <a href="https://twitter.com/oalfonso_o" target='blank'>@oalfonso_o</a>
+        """  # noqa e501
         pass
 
     @property

@@ -9,13 +9,12 @@
 
 About Oriol Alfonso
 -------------------
-What am I reading?
  This is a module with dummy objects that contains some information about me
- and what stuff I am related to, like Python, Django, Testing, Tryton, Ansible,
- AWS, Terraform, and good practices around all this things.
+ and what stuff I am related to, like Python, ETL, Testing, Ansible,
+ Terraform, Kafka, etc.
 
-.. automodule:: personal
-   :members:
+.. autoclass:: personal.Life
+   :members: name, birth_date, mail, languages
 
 
 Formation
@@ -23,7 +22,7 @@ Formation
 I've studied IT Specific Vocational Training and a Multimedia Bachelor Degree.
 
 .. autoclass:: formation.Monlau
-   :members: middle_level_esi, advance_level_asix, advance_level_dam
+   :members: middle_level_it, advance_level_sysadmin, advance_level_software
 
 .. autoclass:: formation.LaSalle
    :members:
@@ -51,9 +50,7 @@ Social
 Disclaimer
 ----------------
 
-Forgive me everyone for insulting Sphinx and Python using them to tell my life 
-but with my backend background it has been imposible to ignore the possibility 
-of redacting my own CV with this really nice tool.
+Forgive me for using Sphinx for this.
 
 
 

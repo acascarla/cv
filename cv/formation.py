@@ -3,51 +3,47 @@
 
 
 class Monlau():
-    """
-    Monlau is where I started my Higher Education IT focused. I studied in this
-    school for 5 years doing 3 diferent courses, one Middle Level Vocational
-    Training and two Advanced Vocational Trainings.
-    """
+    """5 years and 3 IT courses, one Middle and two Advanced Vocational Trainings."""  # noqa e501
 
     @property
-    def middle_level_esi():
-        """
-        CF Grau Mig d'Informàtica::
+    def middle_level_it():
+        """CF Grau Mig d'Informàtica
+        ::
 
             overview = {
-                name: 'Explotació de Sistemes Informàtics',
-                center: "Centre d'Estudis Monlau",
-                duration: dateutils.relativedelta(years=2),
-                contents: ['IT basics'],
+                'name': 'System Administration',
+                'center': "Centre d'Estudis Monlau",
+                'duration': dateutils.relativedelta(years=2),
+                'contents': ['IT basics'],
             }
         """
         pass
 
     @property
-    def advance_level_asix():
-        """
-        CF Grau Superior de Sistemes::
+    def advance_level_sysadmin():
+        """CF Grau Superior de Sistemes
+        ::
 
             overview = {
-                name: 'Administració Sistemes Informàtics i Xarxes',
-                center: "Centre d'Estudis Monlau",
-                duration: dateutils.relativedelta(years=2),
-                contents: ['SysAdmin knowledge', 'programming basics'],
+                'name': 'Networks and Informatic Systems Administration',
+                'center': "Centre d'Estudis Monlau",
+                'duration': dateutils.relativedelta(years=2),
+                'contents': ['System Administration', 'programming basics'],
             }
         """
         pass
 
     @property
-    def advance_level_dam():
-        """
-        CF Grau Superior de Programació::
+    def advance_level_software():
+        """CF Grau Superior de Programació
+        ::
 
             overview = {
-                name: "Desenvolupament d'Aplicacions Multiplataforma",
-                center: "Centre d'Estudis Monlau",
-                duration: dateutils.relativedelta(years=1),
-                contents: [
-                    'programming knowledge', 'OOP', 'relational databases'
+                'name': 'Development of Multiplatform Apps',
+                'center': "Centre d'Estudis Monlau",
+                'duration': dateutils.relativedelta(years=1),
+                'contents': [
+                    'Software Engineering', 'Relational Databases'
                 ],
             }
         """
@@ -55,28 +51,22 @@ class Monlau():
 
 
 class LaSalle():
-    """
-    After my 5th year in Monlau, La Salle just started a Multimedia Bachelor's
-    degree of 3 years oriented to videogames. That would convalidate most
-    of already coursed subjects, due to that, all the degree lasted just 2
-    years instead of 3.
-    """
+    """A Multimedia Bachelor degree of 3 years oriented to videogames."""
 
     @property
     def multimedia_bachelor():
-        """
-        Batxelor Multimèdia::
+        """Batxelor Multimèdia
+        ::
 
             overview = {
-                name: "Batxelor Multimèdia",
-                center: "Open University La Salle",
-                duration: dateutils.relativedelta(years=2),
-                contents: [
-                    'ux', 'ui', 'arduino', 'db', 'android', 'ios',
-                    'game design', 'photography', 'video edition',
-                    'programming an engine from zero', 'unity', '3d model',
-                    '3d rigging', '3d animation', 'web projects',
-                    'web videogames', 'phaser.js'
+                'name': 'Multimedia Bachelor',
+                'center': 'Open University La Salle',
+                'duration': dateutils.relativedelta(years=3),
+                'contents': [
+                    'DBs', 'Android', 'IOS', 'Web Videogames', 'phaser.js'
+                    'Game Design', 'Video Edition', 'Web Projects',
+                    'Programming an engine from scratch', 'c++', 'libsdl',
+                    'Unity', '3d modeling', '3d rigging', '3d animation',
                 ],
             }
         """
