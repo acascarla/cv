@@ -6,7 +6,7 @@ class Career():
     """ 7 years of Software Egineering experience.
 
     I started in REDK, hired by my university teacher. Then I moved to
-    Calidae for 5 years and now I'm currently working in BMAT as part of the
+    Calidae for 5 years and now I'm working in BMAT as part of the
     Data Team managing what will be the most accurate and complete music
     metadata database in the world.
     """
@@ -49,9 +49,8 @@ class Career():
         As Data Engineer, my role is create and improve pipelines to integrate
         in real time all new music metadata that arrives to us. Each piece of
         the pipeline is treated as an independent service which communicates
-        with others by event sourcing using Confluent Kafka.
-        I also lead scaling issues using AWS deployments on demand and
-        improving code and database decisions.
+        with others by events using Confluent Kafka.
+        I also lead scaling issues using AWS and rethinking code architecture.
         ::
 
             overview = {

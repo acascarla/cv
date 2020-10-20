@@ -3,7 +3,7 @@
 
 
 class Life():
-    """Interested in computers, videogames (Counter Strike) and sport"""
+    """Interested in computers, videogames (Counter Strike) and sport."""
 
     @property
     def name():

@@ -7,11 +7,11 @@ class Monlau():
 
     @property
     def middle_level_it():
-        """CF Grau Mig d'Informàtica
+        """Catalan name: Grau Mig d'Informàtica
         ::
 
             overview = {
-                'name': 'System Administration',
+                'name': 'Systems Administration',
                 'center': "Centre d'Estudis Monlau",
                 'duration': dateutils.relativedelta(years=2),
                 'contents': ['IT basics'],
@@ -21,11 +21,11 @@ class Monlau():
 
     @property
     def advance_level_sysadmin():
-        """CF Grau Superior de Sistemes
+        """Catalan name: Grau Superior de Sistemes
         ::
 
             overview = {
-                'name': 'Networks and Informatic Systems Administration',
+                'name': 'Network and Systems Administration',
                 'center': "Centre d'Estudis Monlau",
                 'duration': dateutils.relativedelta(years=2),
                 'contents': ['System Administration', 'Programming Basics'],
@@ -35,7 +35,7 @@ class Monlau():
 
     @property
     def advance_level_software():
-        """CF Grau Superior de Programació
+        """Catalan name: Grau Superior de Programació
         ::
 
             overview = {
@@ -55,7 +55,7 @@ class LaSalle():
 
     @property
     def multimedia_bachelor():
-        """Bàtxelor Multimèdia
+        """Catalan name: Bàtxelor Multimèdia
         ::
 
             overview = {
